@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demo
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/Ms_producto
+    username: root
+    password: 2843037
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
